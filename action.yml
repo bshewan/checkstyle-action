@@ -1,0 +1,12 @@
+
+name: 'checkstyle-action'
+author: 'Brian Shewan'
+
+outputs:
+    success:
+runs:
+    using: 'docker'
+    image: 'Dockerfile'
+branding:
+    icon: 'check-square'
+    color: 'green'
